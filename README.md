@@ -200,9 +200,9 @@ Código fuente (.txt)
 | Interpreter | `src/Visitors.js` | Evaluación directa del AST |
 
 
-## 📌 Notas
+#Notas
 
-- Los identificadores son solo letras (`[a-zA-Z]+`); no se admiten dígitos en nombres de variables.
-- Los números son enteros positivos (`[0-9]+`).
-- La división entre enteros usa `Math.trunc()` (división entera).
-- Si una variable no fue definida antes de usarla en `print`, el intérprete lanza un error en tiempo de ejecución.
+-Los identificadores son solo letras (`[a-zA-Z]+`); no se admiten dígitos en nombres de variables.
+-Los números son enteros positivos (`[0-9]+`).
+-La división entre enteros usa `Math.trunc()` (división entera).
+-Si una variable no fue definida antes de usarla en `print`, el intérprete lanza un error en tiempo de ejecución.
