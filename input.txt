@@ -1,0 +1,7 @@
+x = 10;
+y = 20;
+z = x + y * 2;
+resultado = (x + y) / 3;
+print(z);
+print(resultado);
+print(x + 5);

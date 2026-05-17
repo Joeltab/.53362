@@ -1,0 +1,39 @@
+=========================================================
+  GRAMÁTICA EN NOTACIÓN EBNF  –  Lenguaje Simple
+=========================================================
+
+<programa>   ::= { <instruccion> } ;
+
+<instruccion> ::= <asignacion>
+               | <imprimir> ;
+
+<asignacion> ::= <id> "=" <expresion> ";" ;
+
+<imprimir>   ::= "print" "(" <expresion> ")" ";" ;
+
+<expresion>  ::= <termino> { ("+" | "-" | "*" | "/") <termino> } ;
+
+<termino>    ::= <numero>
+              | <id>
+              | "(" <expresion> ")" ;
+
+<id>         ::= [a-zA-Z]+ ;
+
+<numero>     ::= [0-9]+ ;
+
+=========================================================
+  DESCRIPCIÓN DE TOKENS
+=========================================================
+
+  PRINT      →  palabra reservada  'print'
+  ID         →  identificador      [a-zA-Z]+
+  NUMERO     →  número entero      [0-9]+
+  IGUAL      →  operador           '='
+  PUNTOCOMA  →  delimitador        ';'
+  PLUS       →  operador           '+'
+  MINUS      →  operador           '-'
+  MUL        →  operador           '*'
+  DIV        →  operador           '/'
+  LPAREN     →  agrupador          '('
+  RPAREN     →  agrupador          ')'
+  EOF        →  fin de archivo

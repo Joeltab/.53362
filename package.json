@@ -1,0 +1,19 @@
+{
+  "name": "analizador-lenguaje-ebnf",
+  "version": "1.0.0",
+  "description": "Analizador léxico y sintáctico para gramática EBNF — Sintaxis y Gramática de los Lenguajes",
+  "main": "index.js",
+  "scripts": {
+    "start":    "node index.js input.txt",
+    "ej1":      "node index.js ejemplos/ejemplo1_correcto.txt",
+    "ej2":      "node index.js ejemplos/ejemplo2_correcto.txt",
+    "ej3":      "node index.js ejemplos/ejemplo3_incorrecto.txt",
+    "ej4":      "node index.js ejemplos/ejemplo4_incorrecto.txt"
+  },
+  "keywords": ["analizador", "lexer", "parser", "ebnf", "antlr4"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
