@@ -70,10 +70,10 @@ node index.js input.txt
 #3. Ejecutar con un archivo específico
 
 bash
-node index.js ejemplos/ejemplo1_correcto.txt
-node index.js ejemplos/ejemplo2_correcto.txt
-node index.js ejemplos/ejemplo3_incorrecto.txt
-node index.js ejemplos/ejemplo4_incorrecto.txt
+node index.js ejemplo1_correcto.txt
+node index.js ejemplo2_correcto.txt
+node index.js ejemplo3_incorrecto.txt
+node index.js ejemplo4_incorrecto.txt
 
 
 #4. Usando los scripts de npm (opcional)
